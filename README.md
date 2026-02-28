@@ -1,3 +1,5 @@
+<a href="https://balajivs.me"><img src="https://github.com/Balaji-V-S/Balaji-V-S/blob/main/Github%20Readme%20watermark.png" align="right" width="140" /></a>
+
 # Aiyo-CLI 🔥
 
 Tamil meme sound effects for your VS Code errors.
