@@ -1,7 +1,7 @@
 {
   "name": "aiyo-cli",
-  "displayName": "aiyo-cli",
-  "description": "About",
+  "displayName": "Aiyo CLI",
+  "description": "A VS Code extension that adds sound effects for command results, diagnostics, and coding events.",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.109.0"
@@ -9,13 +9,27 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "aiyo-cli.helloWorld",
-        "title": "Hello World"
+        "command": "aiyo-cli.runCommand",
+        "title": "Aiyo: Run CLI Command"
+      },
+      {
+        "command": "aiyo-cli.playSuccessSound",
+        "title": "Aiyo: Play Success Sound"
+      },
+      {
+        "command": "aiyo-cli.playWarningSound",
+        "title": "Aiyo: Play Warning Sound"
+      },
+      {
+        "command": "aiyo-cli.playErrorSound",
+        "title": "Aiyo: Play Error Sound"
       }
     ]
   },
